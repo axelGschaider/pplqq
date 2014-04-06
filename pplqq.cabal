@@ -18,5 +18,8 @@ cabal-version:       >=1.8
 executable pplqq
   main-is:             pplqq.hs
   -- other-modules:       
-  build-depends:       base ==4.5.*,
-                       vcard ==0.1.4
+  build-depends:       base  ==4.5.*,
+                       vcard ==0.1.4,
+                       unix  ==2.*,
+                       directory == 1.2.*,
+                       bytestring == 0.9.*
